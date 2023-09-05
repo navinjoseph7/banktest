@@ -10,3 +10,7 @@ class Bank_Account_Test(unittest.TestCase):
 
     def test_default_balance(self):
         self.assertEqual(self.account.balance, 0)
+
+    def test_deposit(self):
+        self.account.deposit(500)
+        assert self.account.balance == 500
