@@ -7,3 +7,11 @@ class Transaction_Record:
         self.credit = credit
         self.debit = debit
         self.balance = balance
+    
+    def __str__(self):
+        if self.credit is not None:
+            return f"{self.date} || {self.credit:.2f} || || {self.balance:.2f}"
+        elif self.debit is not None:
+            return f"{self.date} || || {self.debit:.2f} || {self.balance:.2f}"
+        else:
+            return f"{self.date} || || || {self.balance:.2f}"
