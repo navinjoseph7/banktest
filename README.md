@@ -59,24 +59,25 @@ Follow the instructions below to get started with this project.
 
 ### Usage
 
-1.Run the Python REPL
-  
+1. Run the Python REPL
+   ```bash
   python 
 
-2.Import the account class
-  
-from lib.account import Account
+2. Import the account class
+   ```bash
+   from lib.account import Account
 
-3.Create an instance of the Account class:
-  account = Account()
+3. Create an instance of the Account class:
+   ```bash
+    account = Account()
 
-4.Use the following methods to interact with the account:
-account.deposit(amount): Deposit funds into the account.
-account.withdraw(amount): Withdraw funds from the account.
-account.print_statement(): View the transaction history in the specified format.
+4. Use the following methods to interact with the account:
+   ```bash
+   account.deposit(amount): Deposit funds into the account.
+   account.withdraw(amount): Withdraw funds from the account.
+   account.print_statement(): View the transaction history in the specified format.
+   
 Example usage:
-
-
 account.deposit(1000)
 account.withdraw(500)
 account.print_statement()
