@@ -39,7 +39,7 @@ Follow the instructions below to get started with this project.
 1. Clone the repository:
 
    ```bash
-   git clone https://github.com/yourusername/my-banking-application.git
+   https://github.com/navinjoseph7/banktest.git
 
 2. Change to the working directory
    ```bash
