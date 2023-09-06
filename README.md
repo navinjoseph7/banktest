@@ -78,13 +78,11 @@ Follow the instructions below to get started with this project.
    account.print_statement(): View the transaction history in the specified format.
    
 ### Example usage:
-    ```bash
     account.deposit(1000)
     account.withdraw(500)
     account.print_statement()
 
 ### Example Output:
-    ```bash
     date || credit || debit || balance
     14/01/2012 || || 1000.00 || 1000.00
     13/01/2012 || 500.00 || ||500.00
