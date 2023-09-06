@@ -42,24 +42,30 @@ Follow the instructions below to get started with this project.
    git clone https://github.com/yourusername/my-banking-application.git
 
 2. Change to the working directory
+   ```bash
    cd banktest
 
 3. Install Pytest
+   ```bash
    pipenv install pytest --python 3.11
 
 4. Setup Environment
+   ```bash
    pipenv shell
 
 5. Running tests
+   ```bash
    pytest
 
 ### Usage
 
-1.Run the Python REPL:
-  python
+1.Run the Python REPL
+  
+  python 
 
 2.Import the account class
-  from lib.account import Account
+  
+from lib.account import Account
 
 3.Create an instance of the Account class:
   account = Account()
