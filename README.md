@@ -86,7 +86,7 @@ Follow the instructions below to get started with this project.
 ### Example Output:
     ```bash
     date || credit || debit || balance
-14/01/2012 || || 1000.00 || 1000.00
-13/01/2012 || 500.00 || ||500.00
+    14/01/2012 || || 1000.00 || 1000.00
+    13/01/2012 || 500.00 || ||500.00
 
 
